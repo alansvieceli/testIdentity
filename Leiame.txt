@@ -31,3 +31,5 @@ SQL Server management studio
 dotnet new mvc --auth Individual --use-local-db
 
 dotnet add package Microsoft.EntityFrameworkCore
+
+dotnet ef --startup-project database update
