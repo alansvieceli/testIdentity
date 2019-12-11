@@ -29,3 +29,5 @@ docker exec -it sql1 /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P <YourStro
 SQL Server management studio
 
 dotnet new mvc --auth Individual --use-local-db
+
+dotnet add package Microsoft.EntityFrameworkCore
